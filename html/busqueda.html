@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>PC-Xtore</title>
+	<link rel="stylesheet" href="../css/estilos.css"/>
+	<script src="../js/pcxtore.js"></script>
+	<title>PC-Xtore</title>
+</head>
+
+<body>
+	<div id = "contenedor">
+		<div id = "menubg">
+			<div id = "menu">
+				<ul>
+					<li><a href="computadoras.html"></a></li>
+					<li><a href="laptops.html"></a></li>
+					<li><a href="smartphones.html"></a></li>
+					<li><a href="tablets.html"></a></li>
+					<li><a href="reproductores.html"></a></li>
+					<li class = "active"><a href="busqueda.html"></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id = "header">
+			<form name = "buscador" id = "buscador">
+			Ingresa el termino que deseas buscar:<br>
+				<input class = "consulta" type="text" name="consulta" id="consulta"/>
+					<select name="selOpciones">
+						<option value="todo">Buscar en todo</option>
+						<option value="marca">Buscar por Marca</option>
+						<option value="modelo">Buscar por Modelo</option>
+						<option value="tipo">Buscar por Tipo</option>
+					</select>
+				<input type="button" name="buscar" id="btnBuscar" value="Buscar"/>
+			</form>
+		</div>
+
+
+		<div id="contenido">
+			<h2>Aquí se mostraran los resultados de tu búsqueda.</h2>
+		</div>
+
+		<div id="footer">
+			<a href = 'index.html'>INICIO</a> | <a href = 'contacto.html'>CONTACTO</a>
+			<br>
+			PC-XTORE © 2013 TODOS LOS DERECHOS RESERVADOS
+		</div>
+	</div>
+</body>
+</html>
